@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "824194143106",
+    "project_id": "rnemailauthfirebase-d2dce",
+    "storage_bucket": "rnemailauthfirebase-d2dce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824194143106:android:f95145618eab2960a8b59b",
+        "android_client_info": {
+          "package_name": "com.rnemailauthfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824194143106-kv0ejcd3gk2nk1jmb0vuk5qqtiugo3js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC35mRLC-LRQh9ugUGc02ak_5lLlLuonzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824194143106-kv0ejcd3gk2nk1jmb0vuk5qqtiugo3js.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "824194143106-crubsn76qcdj3dbue98d2d3t8sacilv4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rnEmailAuthFirebase.dojo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
