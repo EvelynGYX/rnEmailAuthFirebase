@@ -9,11 +9,11 @@ import HomeStack from './HomeStack';
 export default Routes = () => {
   const {user, setUser} = useContext(AuthContext);
   const [loading, setLoading] = useState(true);
-  const [initializing, setInitializing] = useState(true);
+  // const [initializing, setInitializing] = useState(true);
 
   const onAuthStateChanged = user => {
     setUser(user);
-    if (initializing) setInitializing(false);
+    // if (initializing) setInitializing(false);
     setLoading(false);
   };
 
