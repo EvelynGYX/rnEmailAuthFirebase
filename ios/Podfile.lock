@@ -505,20 +505,13 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
-  trunk:
+  https://cdn.cocoapods.org/:
     - CocoaAsyncSocket
     - Firebase
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
-    - Flipper
-    - Flipper-Boost-iOSX
-    - Flipper-DoubleConversion
     - Flipper-Fmt
-    - Flipper-Folly
-    - Flipper-Glog
-    - Flipper-PeerTalk
-    - Flipper-RSocket
     - FlipperKit
     - fmt
     - GoogleDataTransport
@@ -530,6 +523,16 @@ SPEC REPOS:
     - PromisesObjC
     - SocketRocket
     - YogaKit
+  https://github.com/CocoaPods/Specs.git:
+    - Flipper
+    - Flipper-Boost-iOSX
+    - Flipper-DoubleConversion
+    - Flipper-Folly
+    - Flipper-Glog
+    - Flipper-PeerTalk
+    - Flipper-RSocket
+    - GoogleUtilities
+    - nanopb
 
 EXTERNAL SOURCES:
   boost:
@@ -675,4 +678,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 36d79be22af217f84c777b759d903b7871d1aec5
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.11.2
