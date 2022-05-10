@@ -9,9 +9,7 @@ export default FormButton = ({
   ...rest
 }) => {
   return (
-    <TouchableOpacity
-      style={{...styles.buttonContainer, ...buttonStyle}}
-      {...rest}>
+    <TouchableOpacity style={[styles.buttonContainer, buttonStyle]} {...rest}>
       <Text style={{...styles.defaultButtonText, ...buttonTextStyle}}>
         {buttonTitle}
       </Text>
