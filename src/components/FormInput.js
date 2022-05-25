@@ -2,10 +2,10 @@ import React from 'react';
 import {StyleSheet, TextInput} from 'react-native';
 import {windowHeight, windowWidth} from '../utils/Dimension';
 
-export default FormInput = ({labelValue, placeholderText, ...rest}) => {
+export default FormInput = ({value, placeholderText, ...rest}) => {
   return (
     <TextInput
-      value={labelValue}
+      value={value}
       style={styles.input}
       numberofLines={1}
       placeholder={placeholderText}

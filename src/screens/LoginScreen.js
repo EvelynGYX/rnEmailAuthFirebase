@@ -21,6 +21,7 @@ export default LoginScreen = ({navigation}) => {
         keyboardType="email-address"
         autoCorrect={false}
       />
+      {/* Props and user-defined components */}
       <FormInput
         value={password}
         placeholderText="Password"
